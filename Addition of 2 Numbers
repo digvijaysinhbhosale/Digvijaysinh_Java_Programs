@@ -1,0 +1,17 @@
+package com.methods;
+
+public class dataset1 {
+
+	public static void main(String[] args)
+	{
+		Data d1 = new Data();
+		
+		d1.setX(100);
+		d1.setY(200);
+		d1.setZ(300);
+		
+		System.out.println(d1.getX());
+		System.out.println(d1.getY());
+		System.out.println(d1.getZ());
+	}
+}
