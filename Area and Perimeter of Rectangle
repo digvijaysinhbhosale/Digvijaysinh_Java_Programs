@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Area_per_rectrangle
+{
+
+		public static void main(String[] args)
+		{
+			int area,peri,len,width;
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter length and width of rectangle");
+			len=sc.nextInt();
+			width=sc.nextInt();
+			
+			area=len*width;
+			peri=2*(len+width);
+			
+			System.out.println("Area of Rectangle= "+area);
+			System.out.println("Perimeter if rectangle= "+peri);
+	}
+
+}
