@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Area_Circumfrence_O {
+
+	public static void main(String[] args) {
+
+		double a,c,r;
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter radius of circle");
+		r=sc.nextDouble();
+		
+		a= 3.1412*r*r;
+		c= 2*3.1412*r;
+		
+		System.out.println("Area of circle= "+a);
+		System.out.println("circumfrence of ciecle= "+c);
+	
+
+	}
+
+}
