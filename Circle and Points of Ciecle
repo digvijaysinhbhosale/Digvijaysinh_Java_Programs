@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Circle_and__Point {
+
+	public static void main(String[] args) {
+		int r,x,y;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the radius of circle");
+		r=sc.nextInt();
+		
+		System.out.println("Enter the co_ordinates of Point");
+		x=sc.nextInt();
+		y=sc.nextInt();
+		
+		if(x*x+y*y>r*r)
+			System.out.println("Point lies Outside the circle");
+		
+		if(x*x+y*y<r*r)
+			System.out.println("Point lies Inside the circle");
+		
+		if(x*x+y*y==r*r)
+			System.out.println("Point lies On the circle");
+		
+		if(x*x+y*y==0)
+			System.out.println("Point in the center of the circle");
+	}
+
+}
